@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portafolio - Kevin Romero</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap');
+
+    :root{
+        --colorRose: #fea4b5;
+        --colorBlueLigth: #8fedea;
+        --colorBlue: #3ecace;
+        --colorPurpureLigth: #9fa3dd;
+        --colorPurpure: #5e4d81;
+        --colorPink: #cb80c0;
+
+        /* Z-INDEX */
+        --z-back: -10;
+        --z-normal: 2;
+        --z-tooltip: 10;
+        --z-fixed: 100;
+        --z-modal: 1000;
+
+        /* LETRAS */
+        --bigger-font-size: 4.5rem;
+        --h1-font-size: 2.75rem;
+        --h2-font-size: 2.4375rem;
+        --h3-font-size: 2.25rem;
+        --h4-font-size: 2.0625rem;
+        --normal-font-size: 1rem;
+        --small-font-size: 0.875rem;
+        --smaller-font-size: 0.8rem;
+    }
+
+    body{
+        font-family: 'Montserrat', sans-serif;
+    }
+</style>
+<body>
+    <section id="#home" class="flex w-full h-screen justify-center items-center">
+        <div class="w-full h-screen md:block hidden"  style="background-color: var(--colorPink);">
+            <div>
+                <img class="h-screen object-cover drop-shadow-2xl" src="assets/img/me/kevin sin fondo.png" alt="Foto de perfil de Kevin Romero">
+            </div>
+        </div>
+        <div class="w-full h-screen px-10 flex justify-start items-center">
+            <div>
+                <h3 style="font-size: var(--h4-font-size); font-weight: bold;">HI, MY NAME IS</h3>
+                <h1 style="font-size: var(--bigger-font-size); color: var(--colorBlue); font-weight: bold;">KEVIN ROMERO</h1>
+                <h3 class="inline-block text-white px-1" style="background-color: var(--colorPink);">I'M WEB DEVELOPER</h3>
+            </div>
+        </div>
+    </section>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#home">
+                    <svg></svg>
+                </a>
+            </li>
+            <li>
+                <a href="aboutMe">
+                    <svg></svg>
+                </a>
+            </li>
+            <li>
+                <a href="skills">
+                    <svg></svg>
+                </a>
+            </li>
+            <li>
+                <a href="#portfolio">
+                    <svg></svg>
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                    <svg></svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- <nav class="w-2/5 h-screen bg-red-300 sticky top-0">
+        <div class="">
+            <img width="100%" src="assets/img/me/kevin.JPG" alt="">
+        </div>
+        <ul class="text-center" style="font-size: var(--h4-font-size); font-weight: lighter;">
+            <li class="bg-blue-500"><a href="#home">Home</a></li>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav> -->
+
+    <!-- ABOUT ME -->
+    <section id="aboutMe" class="flex w-full justify-end items-center">
+        <div class="w-2/4">
+            <h1 style="font-size: var(--bigger-font-size); color: var(--colorBlue); font-weight: bold;">HELLO</h1>
+            <div class="leading-8">
+                <p style="font-size: var(--normal-font-size);">Hello my name is Kevin Israel Romero García, I am 24 years old and I am a computer systems engineer with more than 3 years training as a web designer and developer.
+                </p>
+                <p class="my-3">I am a young professional with passion for his work, with capacity in organization and learning.
+                </p>
+                <p class="mb-3">I am looking for an opportunity to gain professional experience in the work field.</p>
+            </div>
+            <a style="background-color: var(--colorBlue);" class="text-white p-1" href="#">Download CV</a>
+        </div>
+
+    </section>
+</body>
+</html>
