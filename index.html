@@ -6,74 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="assets/img/ico/ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
     <title>Portafolio - Kevin Romero</title>
 </head>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap');
-
-    :root{
-        --colorRose: #fea4b5;
-        --colorBlueLigth: #8fedea;
-        --colorBlue: #3ecace;
-        --colorPurpureLigth: #9fa3dd;
-        --colorPurpure: #5e4d81;
-        --colorPink: #cb80c0;
-
-        /* Z-INDEX */
-        --z-back: -10;
-        --z-normal: 2;
-        --z-tooltip: 10;
-        --z-fixed: 100;
-        --z-modal: 1000;
-
-        /* LETRAS */
-        --bigger-font-size: 4.5rem;
-        --h1-font-size: 2.75rem;
-        --h2-font-size: 2.4375rem;
-        --h3-font-size: 2.25rem;
-        --h4-font-size: 2.0625rem;
-        --title-card-size: 1.4375rem;
-        --normal-font-size: 1rem;
-        --small-font-size: 0.875rem;
-        --smaller-font-size: 0.8rem;
-    }
-
-    body{
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .fade{
-        opacity: 0;
-        transition: all 2s ease;
-    }
-    .fadeDown{
-        transform: translateY(-60%);
-    }
-
-    .fadeLeft{
-        transform: translateX(-30%);
-    }
-
-    .fadeRight{
-        transform: translateX(30%);
-    }
-
-    .showFade{
-        opacity: 1;
-        transform: none;
-    }
-
-    .popUp{
-        opacity: 0;
-        transform: scale(0);
-        transition: all .25s ease;
-    }
-
-    .showPopUp{
-        opacity: 1;
-        transform: scale(100%);
-    }
-</style>
 <body>
     <nav class="h-screen flex fixed items-center">
         <div class="w-15 p-4 flex justify-center items-center rounded-full shadow-2xl" style="background-color: var(--colorPink);">
