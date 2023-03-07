@@ -37,5 +37,5 @@ He trabajado en varios proyectos en solitario donde pongo en practica las habili
 - [Tic Tac Toe con el algoritmo Minimax.](https://github.com/Kevin-Romero/Tic-Tac-Toe-Mininimax "Tic Tac Toe con el algoritmo Minimax.")
   [Playlist de un grupo de música.](https://github.com/Kevin-Romero/play-list "Playlist de un grupo de música.")
 
-##Muestra tu apoyo
+## Muestra tu apoyo
 Dame una ⭐️ si este proyecto te ayudó!
